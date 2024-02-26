@@ -1,9 +1,11 @@
 <?php
-require __DIR__ . '/../Prodotti.php'
+require __DIR__ . '/../Prodotti.php';
 class Cibo extends Products{
-    $quantità;
-    $gusto;
+    public $quantità;
+    public $gusto;
     public function __construct($price, $name, $quantità, $gusto){
+        $this->quantità = $quantità;
+        $this->gusto = $gusto;
         parent:: __construct($price, $name);
     }    
 }

@@ -1,4 +1,5 @@
 <?php
 require __DIR__ . '/../Prodotti.php';
-$dog = new Products (30, 'cibo');
+require __DIR__ . '/../sotto_classi/qwe.php';
+$dog = new Cibo (30, 'cibo', 50, 'pollo');
 var_dump($dog);

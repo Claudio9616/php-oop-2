@@ -1,5 +1,7 @@
 <?php
 require __DIR__ . '/models/products_istance.php';
+require __DIR__ . '/sotto_classi/qwe.php';
+require __DIR__ . '/Prodotti.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
