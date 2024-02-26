@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/models/products_istance.php';
+require __DIR__ . '/products_istance.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +9,6 @@ require __DIR__ . '/models/products_istance.php';
     <title>Document</title>
 </head>
 <body>
-    <h1>ciao</h1>
+    <!-- RICORDATI CHE DEVI STAMPARE SUL DOM -->
 </body>
 </html>
